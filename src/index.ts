@@ -53,8 +53,6 @@ async function main(): Promise<void> {
     },
     x: {
       ticks: ["1910", "1920", "1930", "1940", "1950", "1960", "1970", "1980", "1990", "2000", "2010"],
-      // tickFormat: d => d.toString().replace(",", ""),
-      // tickSpacing: 300,
       tickFormat: "",
       // domain: [1900,1910,1920,1930,1940,1950,1960,1970,1980,1990, 2000]
     },
