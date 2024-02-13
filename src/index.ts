@@ -49,7 +49,7 @@ async function main(): Promise<void> {
       legend: true,
       label: "Number of Cases",
       // type: "categorical",
-      scheme: "OrRd"
+      scheme: "Blues"
     },
     x: {
       ticks: ["1910", "1920", "1930", "1940", "1950", "1960", "1970", "1980", "1990", "2000", "2010"],
