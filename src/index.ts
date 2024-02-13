@@ -71,19 +71,6 @@ async function main(): Promise<void> {
 
   document.querySelector("#plot")?.append(barchart);
 
-  // const new_data = data.filter(d => d.year === "2010");
-
-  // console.log(String(data[0].year));
-  //Object.keys(data[0]).forEach((prop)=> console.log(prop));
-
-
-  // const adjusted_data = new_data.map(d => {
-  //   const popObj = pop_data.find(
-  //     pd => pd.name === d.region && pd.year === d.year
-  //   );
-  //   return {...d, Count: Number(d.count) / (popObj ? Number(popObj.population) : 1)};
-  // });
-
   const region_chart = Plot.plot({
     title: "Regional Botulism Cases (2010)",
     caption: "Figure 2: The regional chart above depicts the total number of botulism cases for each region per capita. Each bar is segmented into the categories of botulism.",
